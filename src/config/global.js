@@ -3,8 +3,8 @@ export default {
     Name: 'Manejo de inventarios en el <em>Retail</em>',
     Description:
       'La logística en <em>retail</em> radica en el conjunto de técnicas necesarias para poder cumplir con el objetivo final de acercar y vender un producto al cliente en su respectiva sala de ventas del formato comercial o <em>retail</em> especializado. Este proceso abarca desde la gestión eficiente del inventario y el almacenamiento, hasta la distribución y transporte del producto, asegurando su disponibilidad en el momento y lugar adecuados.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.jpg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
@@ -13,10 +13,6 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-3'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -159,11 +155,7 @@ export default {
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
       },
-      {
-        nombreRuta: 'complementario',
-        icono: 'far fa-folder-open',
-        titulo: 'Material complementario',
-      },
+
       {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
@@ -186,28 +178,6 @@ export default {
       },
     ],
   },
-  complementario: [
-    {
-      tema: 'Gestión logística de inventarios en el punto de venta',
-      referencia: 'Puerta, L.F. (s.f.). Seminario manejo de carga.',
-      tipo: 'PDF',
-      link: 'downloads/seminario_de_carga.pdf',
-    },
-    {
-      tema: 'Gestión logística de inventarios en el punto de venta',
-      referencia:
-        'Compartamos banco. (2016). ¿Por qué es importante controlar el inventario? [Video]. YouTube.',
-      tipo: 'Video',
-      link: 'https://youtu.be/AJaii3mpuJ4',
-    },
-    {
-      tema: 'Gestión de devolución',
-      referencia:
-        'Martínez, I. (2018). Aprende a hacer un formato para devolución de mercancía al almacén.',
-      tipo: 'Video',
-      link: 'https://youtu.be/RMqWGZY-PWM',
-    },
-  ],
   glosario: [
     {
       termino: 'Almacén',
@@ -296,12 +266,12 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Milady Tatiana Villamil Castellanos',
+          nombre: 'Claudia Johanna Gómez Pérez',
           cargo: 'Responsable del ecosistema',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Claudia Johanna Gómez Pérez',
+          nombre: 'Edison Eduardo Mantilla Cuadros',
           cargo: 'Responsable de línea de producción',
           centro: 'Centro Agroturístico - Regional Santander',
         },
@@ -349,12 +319,12 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Yazmin Rocio Figueroa Pacheco',
+          nombre: 'Yuly Andrea Rey Quiñonez',
           cargo: 'Diseñadora de contenidos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Pedro Alonso Bolivar Gonzalez',
+          nombre: 'Leonardo Castellanos Rodriguez',
           cargo: 'Desarrollador <em>full stack</em>',
           centro: 'Centro Agroturístico - Regional Santander',
         },

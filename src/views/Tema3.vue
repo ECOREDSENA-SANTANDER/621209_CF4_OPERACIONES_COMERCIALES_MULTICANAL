@@ -9,7 +9,7 @@
     
     .row.justify-content-center.align-items-center
       .col-lg-10.col-md-12.col-12
-        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema3/img1.png')})`}"
           )
@@ -45,19 +45,19 @@
 
     .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-md-6.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-secundario.p-5.h-100
+        .tarjeta-numerada.color-primario.p-5.h-100
           .tarjeta-numerada__numero
             .h2 1
           h4.mb-3 Producto en curso
           p.mb-0 Es el producto que está siendo transformado en el proceso productivo. 
       .col-md-6.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-secundario.p-5
+        .tarjeta-numerada.color-primario.p-5
           .tarjeta-numerada__numero
             .h2 2
           h4.mb-3 Producto semiterminado
           p.mb-0 Es el producto que ha sufrido la transformación y espera a seguir sufriendo transformaciones hasta convertirse en el producto final o terminado.
       .col-md-6.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-secundario.p-5.h-100
+        .tarjeta-numerada.color-primario.p-5.h-100
           .tarjeta-numerada__numero
             .h2 3
           h4.mb-3 Producto terminado
@@ -65,7 +65,7 @@
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-8.col-md-12.col-12.mb-3
-        .cajon.color-acento-contenido.p-4
+        .cajon.color-primario.p-4
           p.mb-0 Kotler (2017), define un producto como cualquier bien que se pueda ofrecer a un mercado para su atención, adquisición, uso o consumo, y que podría satisfacer un deseo o una necesidad.
 
     p.mb-4(data-aos="fade-left") Los atributos de los productos aportan utilidad al consumidor y son percibidos como tal; es decir, tienen la capacidad de satisfacer alguna de las necesidades del consumidor. Son propios de los productos los siguientes aspectos:
@@ -144,7 +144,7 @@
       .col-lg-8.col-md-12.col-12.mb-4
         p.mb-4 Al hablar de referencias se hace mención de aquellos productos que buscan llenar una necesidad puntual y específica. Las mismas abarcan el modelo, función, marca, contenido y pueden ser tantas como artículos disponibles.
         p.mb-4 Las referencias son claves para la satisfacción del cliente, para el cumplimiento de sus necesidades o deseos o creando nuevas necesidades con miras a posicionarse en el mercado, generando rentabilidad. 
-        .cajon.color-acento-contenido.p-4
+        .cajon.color-primario.p-4
           p.mb-0 La profundidad del surtido en el formato comercial, o #[em retail], mide qué tanto abarca cada referencia según su clasificación y cómo se componen las variaciones a existir, que son necesarias en todo establecimiento comercial.
     
     separador
@@ -211,51 +211,52 @@
     p.mb-4(data-aos="fade-right") Se entiende por nivel de #[em stock] a la cantidad de existencias de un artículo almacenado en un momento dado, muy puntual para los #[em retailers] en las temporadas de Navidad, madre, padre, escolar, entre otras, dependiendo del calendario comercial.
     p.mb-4(data-aos="fade-left") Existen diversas clases de #[em stock] de mercancía, a saber: 
     
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12.mb-4.mb-lg-0(data-aos="fade-right")
+    .row.justify-content-center.mb-5
+      .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
         TabsA.color-primario
-          .tarjeta.color-acento-botones.bg7.p-4(titulo="<em>Stock</em> no perecedero")
+          .tarjeta.color-acento-botones.bg03.p-4(titulo="<em>Stock</em> no perecedero")
             .row.justify-content-center.align-items-center
               .col-lg-12.col-md-12.col-12
                 p.mb-3 #[b #[em Stock] no perecedero]
                 p.mb-0 Lo integran productos y material que no se deterioran con el paso del tiempo y que, por tanto, podrán estar almacenados durante mayores plazos sin perder sus propiedades originales.
-          .tarjeta.color-acento-botones.bg7.p-4(titulo="<em>Stock</em> perecedero")
+          .tarjeta.color-acento-botones.bg03.p-4(titulo="<em>Stock</em> perecedero")
             .row.justify-content-center.align-items-center
               .col-lg-12.col-md-12.col-12
                 p.mb-3 #[b #[em Stock] perecedero] 
                 p.mb-0 Los productos considerados perecederos son aquellos que, debido a su composición o condiciones, pueden deteriorarse rápidamente y perder sus características originales con el paso del tiempo debido a factores externos. 
-          .tarjeta.color-acento-botones.bg7.p-4(titulo="<em>Stock</em> con fecha de caducidad")
+          .tarjeta.color-acento-botones.bg03.p-4(titulo="<em>Stock</em> con fecha de caducidad")
             .row.justify-content-center.align-items-center
               .col-lg-12.col-md-12.col-12
                 p.mb-3 #[b #[em Stock] con fecha de caducidad] 
                 p.mb-0 Puede incluir también al #[em stock] perecedero, ya que muchos perecederos cuentan también una fecha limitada para su uso o consumo. Además, incluye aquellos materiales que, aunque no se deterioren con el tiempo, sí cuentan con una fecha límite para su correcta utilización.
-          .tarjeta.color-acento-botones.bg7.p-4(titulo="<em>Stock</em> de ciclo o <em>stock</em> activo")
+          .tarjeta.color-acento-botones.bg03.p-4(titulo="<em>Stock</em> de ciclo o <em>stock</em> activo")
             .row.justify-content-center.align-items-center
               .col-lg-12.col-md-12.col-12
                 p.mb-3 #[b #[em Stock] de ciclo o #[em stock] activo]
                 p.mb-0 El #[em stock] activo también se denomina #[em stock] de ciclo, pues hace referencia al número de artículos con los que debe contar una empresa en condiciones normales para satisfacer la demanda de sus consumidores.
-          .tarjeta.color-acento-botones.bg7.p-4(titulo="<em>Stock</em> mínimo")
+          .tarjeta.color-acento-botones.bg03.p-4(titulo="<em>Stock</em> mínimo")
             .row.justify-content-center.align-items-center
               .col-lg-12.col-md-12.col-12
                 p.mb-3 #[b #[em Stock] mínimo] 
                 p.mb-0 El #[em stock] mínimo es la cantidad básica de artículos que por seguridad se deben disponer en el almacén, para seguir ofreciendo el servicio o producto a los clientes. Consiste en el valor que permite atender la demanda del público, aún en los momentos de mayores ventas.
-          .tarjeta.color-acento-botones.bg7.p-4(titulo="<em>Stock</em> máximo")
+          .tarjeta.color-acento-botones.bg03.p-4(titulo="<em>Stock</em> máximo")
             .row.justify-content-center.align-items-center
               .col-lg-12.col-md-12.col-12
                 p.mb-3 #[b #[em Stock] máximo] 
                 p.mb-3 El #[em stock] máximo es el mayor volumen de existencias que debe presentar el inventario sin afectar negativamente sus costos. 
                 p.mb-0 Se determina periódicamente de acuerdo con el tipo de productos, las ventas y los recursos de almacenamiento disponibles.
-          .tarjeta.color-acento-botones.bg7.p-4(titulo="<em>Stock</em> de seguridad")
+          .tarjeta.color-acento-botones.bg03.p-4(titulo="<em>Stock</em> de seguridad")
             .row.justify-content-center.align-items-center
               .col-lg-12.col-md-12.col-12
                 p.mb-3 #[b #[em Stock] de seguridad] 
                 p.mb-0 El #[em stock] de seguridad es el inventario extra que se tiene en el almacén para hacer frente a imprevistos relacionados con cambios en la demanda o retrasos de los proveedores.
-          .tarjeta.color-acento-botones.bg7.p-4(titulo="<em>Stock</em> en tránsito o en curso")
+          .tarjeta.color-acento-botones.bg03.p-4(titulo="<em>Stock</em> en tránsito o en curso")
             .row.justify-content-center.align-items-center
               .col-lg-12.col-md-12.col-12
                 p.mb-3 #[b #[em Stock] en tránsito o en curso] 
                 p.mb-0 Es la mercancía que todavía está presente en la empresa porque está en un proceso de producción o comercialización: embalaje, fabricación, en proceso de entrega.
-    
+      .col-lg-4.col-10.col-md-6
+        img(src='@/assets/curso/tema3/img15.png', alt='tema1')
     .row.justify-content-center.align-items-center(data-aos="fade-right")
       .col-lg-10.col-md-12.col-12
         .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5

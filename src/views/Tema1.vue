@@ -12,7 +12,7 @@
           img.img-a.img-t(src='@/assets/curso/tema1/img1.png', alt='tema1')
         .col-lg-8.col-md-12.col-12.mb-4
           p.mb-4 El inventario es una organización de elementos de forma ordenada y valorada mediante un proceso de recopilación de datos. Este  sistema ayuda a las empresas a mantener el control y el orden de sus bienes, almacenes y bodegas, facilitando todo el proceso comercial y de producción para garantizar la disponibilidad del producto final para los consumidores.
-          .cajon.color-acento-contenido.p-4
+          .cajon.color-primario.p-4
             p.mb-0 El inventario tiene una estructura predefinida que contiene información valiosa sobre los productos, como su volumen, tamaño y características, asociadas a las funciones de provisión y distribución, las cuales están integradas en la estrategia logística a desarrollar.
   
       separador
@@ -24,7 +24,7 @@
   
       .row.justify-content-center.align-items-end(data-aos="fade-right")
         .col-lg-8.col-md-12.col-12
-          .bg8.p-4
+          .bg1.p-4
             SlyderF(columnas="col-lg-12 col-md-12 col-12")
               .tarjeta.tarjeta--slyder.blanco.p-3
                 .row.justify-content-center.align-items-center(titulo="Aseguramiento de la calidad")
@@ -86,7 +86,7 @@
           img.img-a.img-t(src='@/assets/curso/tema1/img9.png', alt='tema1')
         .col-lg-8.col-md-12.col-12.mb-4
           p.mb-4 El concepto “inventariar”, es cuando se  procede a tener un número real y contrastado de elementos que hay en el almacenamiento, donde se valida no solo número, sino también estado y valor. Es un proceso vital para conocer la magnitud de elementos que se tienen en resguardo, #[b convirtiéndose en un elemento de validación y control.]
-          .cajon.color-acento-contenido.p-4.mb-4
+          .cajon.color-primario.p-4.mb-4
             p.mb-0 El marco normativo de nuestro país exige que, al menos una  vez al año, se realice de forma obligatoria.
           p.mb-4 La función contable va de la mano de este y suele coincidir su realización con los cierres económicos de la organización, ya que el mismo se convierte en insumo para los cierres y balances económicos que también son normativos establecidos en la legislación.
       
@@ -140,7 +140,7 @@
         .col-lg-4.col-md-7.col-7.mb-3
           img.mb-3(src='@/assets/curso/tema1/img14.png', alt='Texto que describa la imagen')
         .col-lg-4.col-md-12.col-12.mb-3
-          .bg1.p-3
+          .bg01.p-3
             p.mb-2 Se entiende por recursos los componentes disponibles para la actividad logística que permiten llevar a cabo las tareas necesarias. Estos recursos, esenciales para cumplir con las funciones en el #[em retail], pueden ser tanto de tipo humano como material. 
             p.mb-0 Los recursos y sus herramientas dependen del tipo de proceso logístico que se van a desempeñar, en lo relacionado al #[em retail], generalmente se pueden tener las famosas #[em Manitou], elevadores, grúas, transportadoras, remolcadoras, cintas de transportación, #[em pallets], #[em containers], plataformas móviles, entre otros.
   
@@ -152,7 +152,7 @@
         .col-lg-8.col-md-12.col-12.mb-4
           p.mb-4 En otro orden de ideas, las aplicaciones informáticas de base de datos y hojas de cálculo aplicado a la gestión de inventarios son las más comunes, como herramientas de control en los diferentes #[em retail] o formatos comerciales del mercado.
           p.mb-4 Para la gestión y control de los inventarios existen en el mercado multitud de #[em software] que permiten dicha labor de la manera más eficiente. Evidentemente, dichas aplicaciones son generalmente de pago y producidas por grandes compañías como Microsoft o SAP, cuyos costes, en la mayoría de los casos, son imposibles de sufragar para muchas empresas.
-          .cajon.color-acento-contenido.p-4.mb-4
+          .cajon.color-primario.p-4.mb-4
             p.mb-0 Existen diferentes empresas, con presupuestos y recursos que varían notablemente en cuantía, esto no debería ser un impedimento para la consecución de herramientas para este fin, ya que a través de aplicaciones como #[em Excel] o la utilización de #[em software] libre o gratuito le permitirían tener una gestión aceptable de su proceso de control y gestión de inventarios.
           p.mb-4 En aquellas empresas donde los inventarios adquieren volúmenes realmente grandes, la utilización de estas herramientas ofimáticas no resulta viable ni eficaz, por lo que recurrir a las aplicaciones de pago antes mencionadas es la única opción que tienen para realizar una correcta gestión de sus inventarios.
         .col-lg-4.col-md-7.col-7
@@ -172,14 +172,14 @@
             p.mb-0 El mismo es fácilmente distinguible por su composición de barras y números que dan identidad a todo producto y cuyo uso es obligatorio para la mayoría de estos.
           p.mb-0 Los códigos de barras son muy útiles a la hora de gestionar los productos en un comercio, muestra una información esencial del artículo cuando se pasa a través de unos lectores láser, esta acción se lleva a cabo principalmente para hacer inventario en la empresa y el registro en el punto de pago de manera eficaz y eficiente para que queden perfectamente identificados o registrados. 
   
-      .bg2.mb-5
+      .bg01.mb-5
         .mb-4.d-flex.ps-lg-0
           .d-flex.flex-wrap.align-items-center.pe-3.bg-img-blue
             h3.col.px-4.mb-0.mx-5.text-white(data-aos="zoom-in-left") ¿Qué significado tienen los números y las barras que están incluidos en este tipo de códigos?
             img.icon(src='@/assets/curso/tema1/icon.svg') 
         .row.justify-content-center.align-items-center.mb-4(data-aos="fade-right")
           .col-lg-10.col-md-12.col-12.mb-4
-            ImagenInfografica.color-primario
+            ImagenInfografica
               template(v-slot:imagen)
                 figure
                   img(src='@/assets/curso/tema1/img23.png', alt='Texto que describa la imagen')
@@ -212,32 +212,32 @@
   
       .row.justify-content-center.align-items-center.mb-4(data-aos="fade-right")
         .col-lg-6.col-md-12.col-12.mb-4
-          .bg3.p-2.mb-2
+          .bg02.p-2.mb-2
             ul.lista-ul.ps-2.mb-0
               li.d-flex.mb-0
                 i.fas.fa-circle
                 p.mb-0 Ayudan en el proceso de inventariar al interior de las empresas de forma fácil y óptima de cada al proceso.
-          .bg3.p-2.mb-2
+          .bg02.p-2.mb-2
             ul.lista-ul.mb-0
               li.d-flex.mb-0
                 i.fas.fa-circle
                 p.mb-0 A la hora de la facturación de cada compra, ayuda a ubicar y contabilizar el mismo dentro de la cuenta sin dar paso al error de una digitalización manual.
-          .bg3.p-2.mb-2
+          .bg02.p-2.mb-2
             ul.lista-ul.mb-0
               li.d-flex.mb-0
                 i.fas.fa-circle
                 p.mb-0 En la lista de compra, gracias al mismo, se puede ver con claridad cada artículo adquirido y facilitar la validación por parte del comprador.
-          .bg3.p-2.mb-2
+          .bg02.p-2.mb-2
             ul.lista-ul.mb-0
               li.d-flex.mb-0
                 i.fas.fa-circle
                 p.mb-0 Permite tener un control y visión estadística que ayuden en la toma de decisiones dentro de la estrategia empresarial.
-          .bg3.p-2.mb-2
+          .bg02.p-2.mb-2
             ul.lista-ul.mb-0
               li.d-flex.mb-0
                 i.fas.fa-circle
                 p.mb-0 Su uso es difundido a multitud de artículos y sectores, a tal punto que la mayoría de los productos que se disponen a la venta lo poseen.
-          .bg3.p-2.mb-2
+          .bg02.p-2.mb-2
             ul.lista-ul.mb-0
               li.d-flex.mb-0
                 i.fas.fa-circle
@@ -252,42 +252,42 @@
           img.img-a.img-t(src='@/assets/curso/tema1/img18.svg', alt='tema1')
         .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
           TabsA.color-primario
-            .tarjeta.color-acento-botones.bg7.p-4(titulo="EAN")
+            .tarjeta.color-acento-botones.bg03.p-4(titulo="EAN")
               .row.justify-content-center.align-items-center
                 .col-lg-12.col-md-12.col-12
                   p.mb-3 #[b Código de barras EAN #[em (European Article Number)]]
                   p.mb-0 También conocido como GTIN-13 o EAN-13, es un tipo de código de barras utilizado internacionalmente para identificar productos individuales en un punto de venta.
-            .tarjeta.color-acento-botones.bg7.p-4(titulo="UPC")
+            .tarjeta.color-acento-botones.bg03.p-4(titulo="UPC")
               .row.justify-content-center.align-items-center
                 .col-lg-12.col-md-12.col-12
                   p.mb-3 #[b Código de barras UPC #[em (Universal Product Code)]]
                   p.mb-0 El código UPC (siglas de #[em Universal Product Code]) es un código de barras diseñado especialmente para identificar de manera inequívoca productos y consiste en un número único de 12 dígitos que se representan por barras de diferentes anchos y separación entre ellas para ser legibles por un #[em scanner] especializado.
-            .tarjeta.color-acento-botones.bg7.p-4(titulo="<em>Code</em> 39")
+            .tarjeta.color-acento-botones.bg03.p-4(titulo="<em>Code</em> 39")
               .row.justify-content-center.align-items-center
                 .col-lg-12.col-md-12.col-12
                   p.mb-3 #[b Código de barras #[em Code] 39 (#[em Code] 3 #[em of] 9)]
                   p.mb-0 Este es el tipo de código de barras más utilizado en aplicaciones personalizadas. Su popularidad se debe a que puede codificar tanto texto como números (A-Z, 0-9, +, -, ., y < espacio >). Además, puede ser leído por prácticamente cualquier lector de código de barras en su configuración predeterminada. 
-            .tarjeta.color-acento-botones.bg7.p-4(titulo="<em>Code</em> 128")
+            .tarjeta.color-acento-botones.bg03.p-4(titulo="<em>Code</em> 128")
               .row.justify-content-center.align-items-center
                 .col-lg-12.col-md-12.col-12
                   p.mb-3 #[b #[em Code] 128]
                   p.mb-0 #[em Code] 128 es un código de barras desarrollado por Computer Identics Corporation (EE. UU.) en 1981. El código de barras #[em Code] 128 puede representar todos los 128 caracteres del código ASCII (números, mayúsculas/minúsculas de alfabetos, símbolos y códigos de control).
-            .tarjeta.color-acento-botones.bg7.p-4(titulo="ITF")
+            .tarjeta.color-acento-botones.bg03.p-4(titulo="ITF")
               .row.justify-content-center.align-items-center
                 .col-lg-12.col-md-12.col-12
                   p.mb-3 #[b #[em Interleaved Two of Five (ITF)]]
                   p.mb-0 Es ampliamente utilizado como el código de distribución estándar impreso en cajas de cartón corrugado. Hay varios tipos llamados “2 of 5”. Aunque su composición es similar, el código es completamente diferente.
-            .tarjeta.color-acento-botones.bg7.p-4(titulo="<em>POSTNET</em>")
+            .tarjeta.color-acento-botones.bg03.p-4(titulo="<em>POSTNET</em>")
               .row.justify-content-center.align-items-center
                 .col-lg-12.col-md-12.col-12
                   p.mb-3 #[b #[em POSTNET]]
                   p.mb-0 Es una técnica postal de codificación numérica que se utiliza para clasificar el correo para la entrega, con el código postal de destino.
-            .tarjeta.color-acento-botones.bg7.p-4(titulo="PDF 417")
+            .tarjeta.color-acento-botones.bg03.p-4(titulo="PDF 417")
               .row.justify-content-center.align-items-center
                 .col-lg-12.col-md-12.col-12
                   p.mb-3 #[b PDF 417] 
                   p.mb-0 Es un código de barras apiladas que se puede utilizar para codificar grandes cantidades de información a través de múltiples códigos. Cada patrón en un código de barras individual consiste exactamente de 4 barras y 4 espacios, y cada patrón es de 17 unidades de longitud.
-            .tarjeta.color-acento-botones.bg7.p-4(titulo="QR")
+            .tarjeta.color-acento-botones.bg03.p-4(titulo="QR")
               .row.justify-content-center.align-items-center
                 .col-lg-12.col-md-12.col-12
                   p.mb-3 #[b QR]

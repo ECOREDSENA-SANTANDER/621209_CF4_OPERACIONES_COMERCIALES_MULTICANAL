@@ -26,7 +26,7 @@
     .row.justify-content-center.align-items-end.mb-4(data-aos="fade-right")
       .col-lg-8.col-md-12.col-12.mb-4
         p.mb-4 La devolución de pedidos o logística inversa se utiliza para coordinar los movimientos de los productos. Su función principal es recuperar el #[em stock] teniendo presentes distintas variables, como diferentes trámites administrativos, Reetiquetado, destrucción y reciclaje.
-        .cajon.color-acento-contenido.p-4
+        .cajon.color-secundario.p-4
           p.mb-0 El procedimiento de devolución está regulado, según la legislación comercial de cada país, ya que es un procedimiento de gestión tributaria adherido por la declaración que cada organización debe presentar a su sistema tributario. 
       .col-lg-4.col-md-7.col-7.mb-4
         img.img-a.img-t(src='@/assets/curso/tema4/img2.png', alt='tema1')
@@ -90,7 +90,7 @@
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-right")
       .col-lg-10.col-md-12.col-12
-        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+        .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema4/img7.png')})`}"
           )
@@ -110,13 +110,13 @@
         p.mb-4 Independientemente de su naturaleza escrita u oral, los informes según su contenido son: 
         .row
           .col-md-6.col-xl.mb-4.mb-xl-0
-            .tarjeta-numerada.color-secundario.p-5
+            .tarjeta-numerada.color-primario.p-5
               .tarjeta-numerada__numero
                 .h2 1
               h4.mb-3 Reportes de ventas diarias
               p.mb-0 Trata de la cantidad de actividades comerciales realizadas en las últimas 24 horas. Ejemplo: el comportamiento del producto en la góndola.
           .col-md-6.col-xl.mb-4.mb-xl-0
-            .tarjeta-numerada.color-secundario.p-5
+            .tarjeta-numerada.color-primario.p-5
               .tarjeta-numerada__numero
                 .h2 2
               h4.mb-3 Análisis de ventas semanal

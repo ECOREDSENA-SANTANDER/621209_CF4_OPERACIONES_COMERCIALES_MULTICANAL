@@ -15,12 +15,12 @@
         p.mb-4 La política de inventarios debe establecerse para lograr el cumplimiento de dos objetivos muy importantes y específicos: 
         .row
           .col-md-6.col-xl.mb-xl-0.mb-4
-            .tarjeta-numerada.color-secundario.p-5
+            .tarjeta-numerada.color-primario.p-5
               .tarjeta-numerada__numero
                 .h2 1
               p.mb-0 Controlar el nivel de inventario, que permita suplir las necesidades del usuario final en oportunidad, calidad y competitividad de precios.
           .col-md-6.col-xl.mb-xl-0
-            .tarjeta-numerada.color-secundario.p-5
+            .tarjeta-numerada.color-primario.p-5
               .tarjeta-numerada__numero
                 .h2 2
               p.mb-0 Inspeccionar que efectivamente, la inversión en inventario sea controlada, reducida y adaptada a los requerimientos del cliente. 
@@ -32,7 +32,7 @@
     .row.justify-content-center.align-items-end.mb-4
       .col-lg-8.col-md-12.col-12.mb-4
         p.mb-4 El inventario físico consiste en corroborar la presencia real de bienes almacenados y verificar su estado y condiciones de seguridad tanto en el almacenamiento como en las respectivas góndolas o lineal del #[em retail] o formato comercial. 
-        .cajon.color-acento-contenido.p-4
+        .cajon.color-primario.p-4
           p.mb-0 En consecuencia, la elaboración y verificación de los inventarios físicos (toma física) se debe diligenciar el formato Acta de inicio y terminación de la verificación física del mismo. Por esta razón, el formato de control de inventarios es un documento que  permite detallar las existencias de productos que se encuentran bajo protección en cada dependencia.
       .col-lg-4.col-md-7.col-7.mb-4
         img.img-a.img-t(src='@/assets/curso/tema2/img2.png', alt='tema1')
@@ -188,39 +188,40 @@
     p.mb-5(data-aos="fade-left") Se define el conteo para el inventario como la acción o el proceso de cuantificar la cantidad de #[em stock] en poder de un #[em retail] o la existencia de productos en una organización. Existen diversas técnicas para inventariar las existencias de productos, definidas de la siguiente manera:
     
     .row.mb-4(data-aos="fade-right")
-      .col-lg-12.mb-4.mb-lg-0(data-aos="fade-right")
+      .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
         TabsA.color-primario
-          .tarjeta.color-acento-botones.bg7.p-4(titulo="Conteo periódico de <em>stock</em>")
+          .tarjeta.color-acento-botones.bg03.p-4(titulo="Conteo periódico de <em>stock</em>")
             .row.justify-content-center.align-items-center
               .col-lg-12.col-md-12.col-12
                 p.mb-3 #[b Conteo periódico de #[em stock]]
                 p.mb-0 Como su nombre lo indica, se definirá su realización con una periodicidad definida en días o meses, dependiendo de la cantidad.
-          .tarjeta.color-acento-botones.bg7.p-4(titulo="Conteo continuo de <em>stock</em>")
+          .tarjeta.color-acento-botones.bg03.p-4(titulo="Conteo continuo de <em>stock</em>")
             .row.justify-content-center.align-items-center
               .col-lg-12.col-md-12.col-12
                 p.mb-3 #[b Conteo continuo de #[em stock]] 
                 p.mb-0 Este va acompañado de un plan de acción y se realiza de forma continua para el conocimiento del inventario a tiempo real.
-          .tarjeta.color-acento-botones.bg7.p-4(titulo="Conteo de precisión")
+          .tarjeta.color-acento-botones.bg03.p-4(titulo="Conteo de precisión")
             .row.justify-content-center.align-items-center
               .col-lg-12.col-md-12.col-12
                 p.mb-3 #[b Conteo de precisión] 
                 p.mb-0 Se realiza al momento de recibir mercancía de los proveedores o al preparar los pedidos para clientes. 
-          .tarjeta.color-acento-botones.bg7.p-4(titulo="Validación de <em>stock</em> agotado")
+          .tarjeta.color-acento-botones.bg03.p-4(titulo="Validación de <em>stock</em> agotado")
             .row.justify-content-center.align-items-center
               .col-lg-12.col-md-12.col-12
                 p.mb-3 #[b Validación de #[em stock] agotado]
                 p.mb-0 Se utiliza como validación de la no disponibilidad de producto o para validar y cuantificar cantidades muy pequeñas.
-          .tarjeta.color-acento-botones.bg7.p-4(titulo="Inventario anual de <em>stock</em>")
+          .tarjeta.color-acento-botones.bg03.p-4(titulo="Inventario anual de <em>stock</em>")
             .row.justify-content-center.align-items-center
               .col-lg-12.col-md-12.col-12
                 p.mb-3 #[b Inventario anual de #[em stock]] 
                 p.mb-0 Este sistema entra en funcionamiento cuando no se realiza un inventario periódico o continuo, y se lleva a cabo un único proceso de inventario para el año en curso. 
-      
+      .col-lg-4.col-10.col-md-6 
+        img(src="@/assets/curso/tema2/img31.png")
     p.mb-4(data-aos="fade-left") A continuación, se verá un paso a paso en el proceso de conteo en el #[em retail] o almacenamiento de la organización:
     
     .row.justify-content-center.align-items-center
       .col-lg-10.col-md-12.col-12
-        PasosA.color-secundario.mb-5(tipo="n")
+        PasosA.color-acento-contenido.mb-5(tipo="n")
           .row.justify-content-center.align-items-center
             .col-lg-2.col-md-6.col-8(data-aos="fade-left")
               img.mb-3(src="@/assets/curso/tema2/img10.svg")
@@ -288,7 +289,7 @@
                 img(src='@/assets/curso/tema2/img21.png' alt="")
             .crd_hover_txt--body.colt
               h5.mb-3.text-center Conteo cíclico por fecha
-              p.mt-4.text-white.mb-0.text-center Este conteo establece que una vez se define un periodo de tiempo constante, cada vez que se cumpla ese periodo se realiza un conteo de lo que se tiene físicamente en el almacén; si se establece el 15 de cada mes o, por ejemplo, todos los lunes.
+              p.mt-4.mb-0.text-center Este conteo establece que una vez se define un periodo de tiempo constante, cada vez que se cumpla ese periodo se realiza un conteo de lo que se tiene físicamente en el almacén; si se establece el 15 de cada mes o, por ejemplo, todos los lunes.
         .col-lg-4.mb-4.mb-lg-0.col-md-6(data-aos="zoom-in")
           .crd_hover_txt
             .crd_hover_txt--img
@@ -296,7 +297,7 @@
                 img(src='@/assets/curso/tema2/img22.png' alt="")
             .crd_hover_txt--body.colt
               h5.mb-3.text-center Conteo por producto
-              p.mt-4.text-white.mb-0.text-center Este consiste en realizar el conteo por orden de referencias de producto y en cualquier momento sin importar la fecha. En este caso se llevan a cabo conteos independientes para cada una de las referencias o tipos de producto que se manejan en el almacén.
+              p.mt-4.mb-0.text-center Este consiste en realizar el conteo por orden de referencias de producto y en cualquier momento sin importar la fecha. En este caso se llevan a cabo conteos independientes para cada una de las referencias o tipos de producto que se manejan en el almacén.
         .col-lg-4.mb-4.mb-lg-0.col-md-6(data-aos="zoom-in")
           .crd_hover_txt
             .crd_hover_txt--img
@@ -304,7 +305,7 @@
                 img(src='@/assets/curso/tema2/img23.png' alt="")
             .crd_hover_txt--body.colt
               h5.mb-3.text-center Por ubicación
-              p.mt-4.text-white.mb-0.text-center Dependiendo la distribución espacial y física del almacén. Es decir que, en orden de ubicación sin importar la fecha y la referencia, se realiza el conteo de las existencias.
+              p.mt-4.mb-0.text-center Dependiendo la distribución espacial y física del almacén. Es decir que, en orden de ubicación sin importar la fecha y la referencia, se realiza el conteo de las existencias.
     
     p.mb-0(data-aos="fade-left") Para la realización del proceso de conteo se debe hacer una mediación tecnológica, a través de herramientas que ayuden en el proceso de contabilización y que permita una gestión en vivo de la información recolectada. Herramientas como estas permiten almacenar, organizar y generar reportes, y mucho más, que ayuden a conocer las unidades exactas que quedan en resguardo, permitiendo cruzar la información y colaborar en la toma de decisiones y evitando una posible ruptura en la cadena de servicio.
 
@@ -316,7 +317,7 @@
       .col-lg-3.col-md-7.col-7.mb-4
         img.img-a.img-t(src='@/assets/curso/tema2/img24.svg', alt='tema1')
       .col-lg-5.col-md-12.col-12
-        .bg3.p-4.mb-2
+        .bg01.p-4.mb-2
           p.mb-3 Es un bien material que se puede usar o poseer. A diferencia de otros bienes, como los que se producen para el autoconsumo, la fabricación, transformación y distribución de mercancías tienen como finalidades fundamentales:
           ul.lista-ul.ps-2
             li.d-flex.mb-0
@@ -349,18 +350,20 @@
 
     .row.justify-content-center(data-aos="zoom-in-left")(alt="La imagen expone cómo los bienes materiales se clasifican en cuatro categorías: materias primas, que son sustancias naturales no transformadas; productos en bruto, que requieren acondicionamiento o transporte especializado debido a sus características; semiproductos o productos intermedios, que han pasado por un proceso de transformación y se integrarán en etapas productivas posteriores; y productos elaborados, que son bienes terminados destinados al consumo final tras haber sido transformados a partir de materias primas o productos intermedios.")
       .col-lg-8.col-md-12.col-12
-        
+        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+          h5 Figura 1. 
+          span Clasificación mercancías o productos
 
         .row.justify-content-center.mb-2(data-aos="fade-down")
           .col-md-6.col-lg-6.mb-3
-            .tarjeta.bg9.cuad
+            .tarjeta.bg04.cuad
               .p-4
                 h5.mb-4 Materias primas
                 p Sustancias, minerales o materiales naturales que no han sido sometidos a un proceso de transformación.
             img.img-a.img-t.d-none.d-lg-block.mov1(src='@/assets/curso/tema2/img30.svg', alt='tema1')
           
           .col-md-6.col-lg-6.mb-3
-            .tarjeta.bg9.cuad
+            .tarjeta.bg04.cuad
               .p-4
                 h5.text-right.mb-4 Productos en bruto
                 p.text-right Sustancias, minerales o materiales, ya sean naturales o artificiales, que debido a sus características de volumen o requerimientos específicos necesitan acondicionamiento o transporte especializado para su traslado. 
@@ -368,7 +371,7 @@
 
         .row.justify-content-center.mb-5(data-aos="fade-down")
           .col-md-6.col-lg-6.mb-3
-            .tarjeta.bg9.cuad
+            .tarjeta.bg04.cuad
               .p-4
                 h5.mb-0 Semiproductos o 
                 h5.mb-4 productos intermedios
@@ -376,7 +379,7 @@
             img.img-a.img-t.d-none.d-lg-block.mov3(src='@/assets/curso/tema2/img32.svg', alt='tema1')
           
           .col-md-6.col-lg-6.mb-3
-            .tarjeta.bg9.cuad
+            .tarjeta.bg04.cuad
               .p-4
                 h5.text-right.mb-5 Productos elaborados
                 p.text-right Bienes obtenidos mediante un proceso de transformación de materia prima o productos intermedios destinados al consumo final.
@@ -393,14 +396,14 @@
       .col-md-6.col-lg.mb-3
         .tarjeta-avatar
           img.my-2(src='@/assets/curso/tema2/img26.svg' alt='')
-          .tarjeta.bg5
+          .tarjeta.bg01
             .p-5
               p.mb-0.text-center Ley 34 de 1989 para el régimen de las aduanas y el Decreto 402 de 2005 que aprueba el Reglamento para el Despacho Expreso de Envíos.
     
       .col-md-6.col-lg.mb-3
         .tarjeta-avatar
           img.my-2(src='@/assets/curso/tema2/img27.svg' alt='')
-          .tarjeta.bg5
+          .tarjeta.bg01
             .p-5
               p.mb-0.text-center Resolución 4100 del 26 de diciembre de 2004 para el transporte de carga.
 
@@ -408,7 +411,7 @@
       .col-md-6.col-lg.mb-3
         .tarjeta-avatar
           img.my-2(src='@/assets/curso/tema2/img28.svg' alt='')
-          .tarjeta.bg5
+          .tarjeta.bg01
             .p-5
               p.mb-0.text-center Código internacional de mercancías peligrosas.
     
@@ -418,7 +421,7 @@
       .col-lg-3.col-md-7.col-7.mb-3
         img.img-a.img-t(src='@/assets/curso/tema2/img29.png', alt='tema1')
       .col-lg-5.col-md-12.col-12
-        .bg3.p-4.mb-2
+        .bg02.p-4.mb-2
           ul.lista-ul.ps-2
             li.d-flex.mb-0
               i.fas.fa-circle-check

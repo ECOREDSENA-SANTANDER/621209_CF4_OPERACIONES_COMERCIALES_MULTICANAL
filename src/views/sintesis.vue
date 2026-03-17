@@ -7,7 +7,7 @@
     .row.justify-content-center
       .col-lg-12.mb-5
         figure
-          img(src="@/assets/curso/sintesis.png", alt="Incluye la gestión logística en el punto de venta, que abarca la clasificación y características del inventario, el uso de herramientas como códigos de barras y software especializado. Además, se enfoca en la toma física y digital de inventarios mediante técnicas de conteo y manejo de mercancías. También se presta atención a la gestión de productos, considerando su naturaleza, atributos, rotación y niveles de stock. Finalmente, se abordan las devoluciones, explicando qué son, cómo identificar averías y realizar recuentos y reportes necesarios.")
+          img(src="@/assets/curso/sintesis.svg", alt="Incluye la gestión logística en el punto de venta, que abarca la clasificación y características del inventario, el uso de herramientas como códigos de barras y software especializado. Además, se enfoca en la toma física y digital de inventarios mediante técnicas de conteo y manejo de mercancías. También se presta atención a la gestión de productos, considerando su naturaleza, atributos, rotación y niveles de stock. Finalmente, se abordan las devoluciones, explicando qué son, cómo identificar averías y realizar recuentos y reportes necesarios.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
