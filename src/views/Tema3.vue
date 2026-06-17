@@ -173,35 +173,35 @@
           li.d-flex
             .lista-ol--cuadro__vineta
               span A
-            p.mb-0 #[b Falta de Disponibilidad:] no hay existencias de ciertos productos, lo que impide su venta o distribución.
+            p.mb-0 #[b Falta de disponibilidad:] no hay existencias de ciertos productos, lo que impide su venta o distribución.
           li.d-flex
             .lista-ol--cuadro__vineta
               span B
-            p.mb-0 #[b Pérdida de Ventas:] la ausencia de productos puede llevar a la pérdida de ventas, ya que los clientes no pueden adquirir lo que buscan y pueden recurrir a la competencia.
+            p.mb-0 #[b Pérdida de ventas:] la ausencia de productos puede llevar a la pérdida de ventas, ya que los clientes no pueden adquirir lo que buscan y pueden recurrir a la competencia.
           li.d-flex 
             .lista-ol--cuadro__vineta
               span C
-            p.mb-0 #[b Impacto en la Satisfacción del Cliente:] la falta de disponibilidad de productos puede afectar negativamente la satisfacción y lealtad del cliente.
+            p.mb-0 #[b Impacto en la satisfacción del cliente:] la falta de disponibilidad de productos puede afectar negativamente la satisfacción y lealtad del cliente.
           li.d-flex 
             .lista-ol--cuadro__vineta
               span D
-            p.mb-0 #[b Problemas en la Cadena de Suministro:] puede ser resultado de problemas en la cadena de suministro, como retrasos en la producción, problemas de transporte o fallos en la gestión de inventarios.
+            p.mb-0 #[b Problemas en la cadena de suministro:] puede ser resultado de problemas en la cadena de suministro, como retrasos en la producción, problemas de transporte o fallos en la gestión de inventarios.
           li.d-flex 
             .lista-ol--cuadro__vineta
               span E
-            p.mb-0 #[b Aumento de Costos:] las empresas pueden incurrir en costos adicionales al intentar acelerar la reposición de inventarios o al implementar medidas temporales para mitigar el impacto.
+            p.mb-0 #[b Aumento de costos:] las empresas pueden incurrir en costos adicionales al intentar acelerar la reposición de inventarios o al implementar medidas temporales para mitigar el impacto.
           li.d-flex 
             .lista-ol--cuadro__vineta
               span F
-            p.mb-0 #[b Oportunidades de Mejora:] la situación de inventarios agotados puede revelar áreas de mejora en la gestión de inventarios, previsión de demanda y eficiencia operativa.
+            p.mb-0 #[b Oportunidades de mejora:] la situación de inventarios agotados puede revelar áreas de mejora en la gestión de inventarios, previsión de demanda y eficiencia operativa.
           li.d-flex 
             .lista-ol--cuadro__vineta
               span G
-            p.mb-0 #[b Dependencia de Proveedores:] la falta de productos puede destacar la dependencia de ciertos proveedores y la necesidad de diversificar las fuentes de suministro.
+            p.mb-0 #[b Dependencia de proveedores:] la falta de productos puede destacar la dependencia de ciertos proveedores y la necesidad de diversificar las fuentes de suministro.
           li.d-flex 
             .lista-ol--cuadro__vineta
               span H
-            p.mb-0 #[b Planificación y Estrategia:] requiere una planificación cuidadosa y la implementación de estrategias para evitar que se repita, como el uso de sistemas de inventario #[em just-in-time] o mantener niveles de inventario de seguridad. 
+            p.mb-0 #[b Planificación y estrategia:] requiere una planificación cuidadosa y la implementación de estrategias para evitar que se repita, como el uso de sistemas de inventario #[em just-in-time] o mantener niveles de inventario de seguridad. 
     
     separador
     #t_3_5.titulo-segundo.mb-5

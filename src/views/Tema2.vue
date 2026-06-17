@@ -37,7 +37,7 @@
       .col-lg-4.col-md-7.col-7.mb-4
         img.img-a.img-t(src='@/assets/curso/tema2/img2.png', alt='tema1')
     
-    p.mb-4(data-aos="fade-left") Un ejemplo de Formato es: 
+    p.mb-4(data-aos="fade-left") Un ejemplo de formato es: 
     
     .row.fondo2.align-items-center.p-3(data-aos="fade-down")
       .col-lg-12.col-md-12.col-12.px-lg-5
@@ -397,24 +397,34 @@
         .tarjeta-avatar
           img.my-2(src='@/assets/curso/tema2/img26.svg' alt='')
           .tarjeta.bg01
-            .p-5
-              p.mb-0.text-center Ley 34 de 1989 para el régimen de las aduanas y el Decreto 402 de 2005 que aprueba el Reglamento para el Despacho Expreso de Envíos.
+            .p-4
+              h5.text-center Decreto 1165 de 2019
+              p.mb-0.text-center Establece el Régimen de Aduanas y regula las operaciones de importación, exportación, tránsito aduanero y control de mercancías en el territorio nacional.
     
       .col-md-6.col-lg.mb-3
         .tarjeta-avatar
           img.my-2(src='@/assets/curso/tema2/img27.svg' alt='')
           .tarjeta.bg01
-            .p-5
-              p.mb-0.text-center Resolución 4100 del 26 de diciembre de 2004 para el transporte de carga.
+            .p-4
+              h5.text-center Resolución 046 de 2019 de la DIAN
+              p.mb-0.text-center Desarrolla los procedimientos y requisitos operativos para la aplicación del régimen aduanero, incluyendo trámites, controles y formalidades asociadas a las operaciones de comercio exterior.
 
 
       .col-md-6.col-lg.mb-3
         .tarjeta-avatar
           img.my-2(src='@/assets/curso/tema2/img28.svg' alt='')
           .tarjeta.bg01
-            .p-5
-              p.mb-0.text-center Código internacional de mercancías peligrosas.
-    
+            .p-4
+              h5.text-center Ley 336 de 1996
+              p.mb-0.text-center Contiene el Estatuto Nacional de Transporte, que establece los principios y disposiciones generales para la prestación del servicio de transporte de carga en Colombia.
+      .col-md-6.col-lg.mb-3
+        .tarjeta-avatar
+          img.my-2(src='@/assets/curso/tema2/34.svg' alt='')
+          .tarjeta.bg01
+            .p-4
+              h5.text-center Decreto 1079 de 2015
+              p.mb-0.text-center Compila la reglamentación del sector transporte e incluye disposiciones relacionadas con el transporte terrestre automotor de carga y las condiciones para su operación.
+    p Estas normas constituyen parte del marco regulatorio que orienta la gestión segura, eficiente y legal de las mercancías a lo largo de la cadena logística.
     p.mb-4(data-aos="fade-left") Es importante tener en cuenta en el #[em retail]:
     
     .row.justify-content-center.align-items-end(data-aos="fade-right")

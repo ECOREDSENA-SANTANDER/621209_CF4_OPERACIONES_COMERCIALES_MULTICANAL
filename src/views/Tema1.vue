@@ -73,7 +73,7 @@
                       img(src='@/assets/curso/tema1/img8.svg', alt='Texto que describa la imagen')
                   .col-md-8
                     h4.mb-4 Gestión de la cadena de suministro
-                    p.mb-4 De acuerdo con las siglas en inglés #[em SCM (Supply Chain Management)], se describe a la gestión de la cadena de suministro como la optimización del espacio y el flujo de un producto, desde el abastecimiento de la materia prima hasta la producción, la logística y la entrega al cliente final.
+                    p.mb-4 De acuerdo con las siglas en inglés SCM #[em (Supply Chain Management)], se describe a la gestión de la cadena de suministro como la optimización del espacio y el flujo de un producto, desde el abastecimiento de la materia prima hasta la producción, la logística y la entrega al cliente final.
         .col-lg-4.col-md-7.col-7
           img(src="@/assets/curso/tema1/img2.png")
   
@@ -153,7 +153,7 @@
           p.mb-4 En otro orden de ideas, las aplicaciones informáticas de base de datos y hojas de cálculo aplicado a la gestión de inventarios son las más comunes, como herramientas de control en los diferentes #[em retail] o formatos comerciales del mercado.
           p.mb-4 Para la gestión y control de los inventarios existen en el mercado multitud de #[em software] que permiten dicha labor de la manera más eficiente. Evidentemente, dichas aplicaciones son generalmente de pago y producidas por grandes compañías como Microsoft o SAP, cuyos costes, en la mayoría de los casos, son imposibles de sufragar para muchas empresas.
           .cajon.color-primario.p-4.mb-4
-            p.mb-0 Existen diferentes empresas, con presupuestos y recursos que varían notablemente en cuantía, esto no debería ser un impedimento para la consecución de herramientas para este fin, ya que a través de aplicaciones como #[em Excel] o la utilización de #[em software] libre o gratuito le permitirían tener una gestión aceptable de su proceso de control y gestión de inventarios.
+            p.mb-0 Existen diferentes empresas, con presupuestos y recursos que varían notablemente en cuantía, esto no debería ser un impedimento para la consecución de herramientas para este fin, ya que a través de aplicaciones como Excel o la utilización de #[em software] libre o gratuito le permitirían tener una gestión aceptable de su proceso de control y gestión de inventarios.
           p.mb-4 En aquellas empresas donde los inventarios adquieren volúmenes realmente grandes, la utilización de estas herramientas ofimáticas no resulta viable ni eficaz, por lo que recurrir a las aplicaciones de pago antes mencionadas es la única opción que tienen para realizar una correcta gestión de sus inventarios.
         .col-lg-4.col-md-7.col-7
           img.img-a.img-t(src='@/assets/curso/tema1/img15.svg', alt='tema1')
@@ -275,12 +275,12 @@
             .tarjeta.color-acento-botones.bg03.p-4(titulo="ITF")
               .row.justify-content-center.align-items-center
                 .col-lg-12.col-md-12.col-12
-                  p.mb-3 #[b #[em Interleaved Two of Five (ITF)]]
-                  p.mb-0 Es ampliamente utilizado como el código de distribución estándar impreso en cajas de cartón corrugado. Hay varios tipos llamados “2 of 5”. Aunque su composición es similar, el código es completamente diferente.
-            .tarjeta.color-acento-botones.bg03.p-4(titulo="<em>POSTNET</em>")
+                  p.mb-3 #[b #[em Interleaved Two of Five] (ITF)]
+                  p.mb-0 Es ampliamente utilizado como el código de distribución estándar impreso en cajas de cartón corrugado. Hay varios tipos llamados “2 #[em of] 5”. Aunque su composición es similar, el código es completamente diferente.
+            .tarjeta.color-acento-botones.bg03.p-4(titulo="POSTNET")
               .row.justify-content-center.align-items-center
                 .col-lg-12.col-md-12.col-12
-                  p.mb-3 #[b #[em POSTNET]]
+                  p.mb-3 #[b POSTNET]
                   p.mb-0 Es una técnica postal de codificación numérica que se utiliza para clasificar el correo para la entrega, con el código postal de destino.
             .tarjeta.color-acento-botones.bg03.p-4(titulo="PDF 417")
               .row.justify-content-center.align-items-center
