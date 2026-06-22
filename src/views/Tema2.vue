@@ -390,7 +390,7 @@
         h3.col.px-4.mb-0.mx-5.text-white(data-aos="zoom-in-left") Normativa para manejo de mercancía
         img.icon(src='@/assets/curso/tema1/icon.svg')
 
-    p.mb-4(data-aos="fade-left") Entendemos por normatividad a un conjunto de normas, y las más frecuentes para el manejo de mercancías son:
+    p.mb-4(data-aos="fade-left") La normatividad corresponde al conjunto de disposiciones legales que regulan las actividades relacionadas con la importación, exportación, almacenamiento, transporte y control de mercancías. En Colombia, algunas de las principales normas aplicables son:
 
     .row.justify-content-center.mb-4(data-aos="fade-down")
       .col-md-6.col-lg.mb-3
