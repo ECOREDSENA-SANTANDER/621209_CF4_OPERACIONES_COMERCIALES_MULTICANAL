@@ -1,1 +1,1 @@
-module.exports = 'Manejo de inventarios en el Retail'
+module.exports = 'Manejo de inventarios en el retail'

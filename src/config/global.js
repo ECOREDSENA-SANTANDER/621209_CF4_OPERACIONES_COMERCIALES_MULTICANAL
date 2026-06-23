@@ -1,6 +1,6 @@
 export default {
   global: {
-    Name: 'Manejo de inventarios en el <em>Retail</em>',
+    Name: 'Manejo de inventarios en el <em>retail</em>',
     Description:
       'La logística en <em>retail</em> radica en el conjunto de técnicas necesarias para poder cumplir con el objetivo final de acercar y vender un producto al cliente en su respectiva sala de ventas del formato comercial o <em>retail</em> especializado. Este proceso abarca desde la gestión eficiente del inventario y el almacenamiento, hasta la distribución y transporte del producto, asegurando su disponibilidad en el momento y lugar adecuados.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
