@@ -295,7 +295,7 @@ export default {
           nombre: 'Ana Catalina Córdoba Sus',
           cargo: 'Revisora metodológica y pedagógica',
           centro:
-            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'Rafael Neftalí Lizcano Reyes',

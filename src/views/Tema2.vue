@@ -103,7 +103,7 @@
                   ul.lista-ul.mb-0.ps-3
                     li.d-flex.mb-0
                       i.fas.fa-circle
-                      p.mb-0 #[b Total, de ítems verificados:] [número total de ítems verificados].
+                      p.mb-0 #[b Total de ítems verificados:] [número total de ítems verificados].
                     li.d-flex.mb-0
                       i.fas.fa-circle
                       p.mb-0 #[b Discrepancias encontradas:] [detalle de las discrepancias encontradas].
@@ -161,7 +161,7 @@
                     p.mb-0 Posibilita la automatización de varios procesos a lo largo de la cadena de abastecimiento.
                   li.d-flex.mb-0
                     i.fas.fa-circle-check
-                    p.mb-0 Permite obtener información rápida y oportuna sobre productos servicios o localizaciones.
+                    p.mb-0 Permite obtener información rápida y oportuna sobre productos, servicios o localizaciones.
                   li.d-flex.mb-0
                     i.fas.fa-circle-check
                     p.mb-0 Incrementa la productividad y la eficiencia porque optimiza el tiempo en captura de información.
@@ -259,14 +259,14 @@
               p.mb-0 Se validará con la apertura de las cajas, que se tenga la cantidad correcta y esperada en las mismas.
           .row.justify-content-center.align-items-center
             .col-lg-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
-              p.mb-0 Si se encuentra un producto que no esté anotado en la lista, se le dará un número de secuencia intermedia dependiendo la ubicación del producto y se anotará al final de la hoja.
+              p.mb-0 Si se encuentra un producto que no esté anotado en la lista, se le dará un número de secuencia intermedia dependiendo de la ubicación del producto y se anotará al final de la hoja.
             .col-lg-2.col-md-6.col-8.order-lg-2.order-2(data-aos="fade-right")
               img(src="@/assets/curso/tema2/img17.svg")
           .row.justify-content-center.align-items-center
             .col-lg-2.col-md-6.col-8.order-lg-1.order-2(data-aos="fade-right")
               img(src="@/assets/curso/tema2/img18.svg")
             .col-lg-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
-              p.mb-0 Los números de secuencia de la mercancía listada, serán de 10 en 10 y por anaquel, es decir en el anaquel 1 abra la secuencia 10, 20, 30, etc. y hasta el número que se necesite según la cantidad de mercancía que haya; y en el anaquel 2 será lo mismo comenzando por el número 10 y continuando de 10 en 10.
+              p.mb-0 Los números de secuencia de la mercancía listada, serán de 10 en 10 y por anaquel, es decir en el anaquel 1 habrá la secuencia 10, 20, 30, etc. y hasta el número que se necesite según la cantidad de mercancía que haya; y en el anaquel 2 será lo mismo comenzando por el número 10 y continuando de 10 en 10.
           .row.justify-content-center.align-items-center
             .col-lg-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
               p.mb-0 Al finalizar se contrastarán los listados del auditor y contador para la validación de errores y, en el caso de que existan, corregirlos para luego ingresar la información al sistema.
@@ -276,7 +276,7 @@
             .col-lg-2.col-md-6.col-8.order-lg-1.order-2(data-aos="fade-right")
               img(src="@/assets/curso/tema2/img20.svg")
             .col-lg-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
-              p.mb-0 Imprimir lo capturado en sistema y revisar que no haya ningún faltante físico de mercancía, en caso de haberlo se volverá a contar la mercancía con faltante y se buscará en todos los lugares posibles que pueda estar antes de tomarla como faltante real.
+              p.mb-0 Imprimir lo capturado en el sistema y revisar que no haya ningún faltante físico de mercancía, en caso de haberlo se volverá a contar la mercancía con faltante y se buscará en todos los lugares posibles que pueda estar antes de tomarla como faltante real.
 
     p.mb-5(data-aos="fade-left") A su vez, en el proceso de conteo se pueden encontrar tipos de conteo, por  fecha, producto y ubicación:
 
@@ -348,42 +348,14 @@
     p.mb-4(data-aos="fade-left") Cuando eso sucede, es decir, cuando se transporta, la mercancía adquiere la consideración de “carga”. Así, la mercancía se considera una carga desde el momento en que pasa a ser un elemento que va a ser movido y trasladado o enviado desde un punto de origen a otro de destino, para lo que con toda probabilidad deberá ser embalado, manipulado, manejado o almacenado.
     p.mb-5(data-aos="fade-right") Las mercancías o productos pueden ser sólidos, líquidos o gaseosos y se clasifican en: 
 
-    .row.justify-content-center(data-aos="zoom-in-left")(alt="La imagen expone cómo los bienes materiales se clasifican en cuatro categorías: materias primas, que son sustancias naturales no transformadas; productos en bruto, que requieren acondicionamiento o transporte especializado debido a sus características; semiproductos o productos intermedios, que han pasado por un proceso de transformación y se integrarán en etapas productivas posteriores; y productos elaborados, que son bienes terminados destinados al consumo final tras haber sido transformados a partir de materias primas o productos intermedios.")
+    .row.justify-content-center.mb-4(data-aos="zoom-in-left")(alt="La imagen expone cómo los bienes materiales se clasifican en cuatro categorías: materias primas, que son sustancias naturales no transformadas; productos en bruto, que requieren acondicionamiento o transporte especializado debido a sus características; semiproductos o productos intermedios, que han pasado por un proceso de transformación y se integrarán en etapas productivas posteriores; y productos elaborados, que son bienes terminados destinados al consumo final tras haber sido transformados a partir de materias primas o productos intermedios.")
       .col-lg-8.col-md-12.col-12
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Figura 1. 
           span Clasificación mercancías o productos
 
-        .row.justify-content-center.mb-2(data-aos="fade-down")
-          .col-md-6.col-lg-6.mb-3
-            .tarjeta.bg04.cuad
-              .p-4
-                h5.mb-4 Materias primas
-                p Sustancias, minerales o materiales naturales que no han sido sometidos a un proceso de transformación.
-            img.img-a.img-t.d-none.d-lg-block.mov1(src='@/assets/curso/tema2/img30.svg', alt='tema1')
-          
-          .col-md-6.col-lg-6.mb-3
-            .tarjeta.bg04.cuad
-              .p-4
-                h5.text-right.mb-4 Productos en bruto
-                p.text-right Sustancias, minerales o materiales, ya sean naturales o artificiales, que debido a sus características de volumen o requerimientos específicos necesitan acondicionamiento o transporte especializado para su traslado. 
-            img.img-a.img-t.d-none.d-lg-block.mov2(src='@/assets/curso/tema2/img31.svg', alt='tema1')
-
-        .row.justify-content-center.mb-5(data-aos="fade-down")
-          .col-md-6.col-lg-6.mb-3
-            .tarjeta.bg04.cuad
-              .p-4
-                h5.mb-0 Semiproductos o 
-                h5.mb-4 productos intermedios
-                p Sustancias o materiales naturales o artificiales que han sido sometidos a un proceso de transformación, estos posteriormente se integrarán dentro de un proceso productivo posterior.
-            img.img-a.img-t.d-none.d-lg-block.mov3(src='@/assets/curso/tema2/img32.svg', alt='tema1')
-          
-          .col-md-6.col-lg-6.mb-3
-            .tarjeta.bg04.cuad
-              .p-4
-                h5.text-right.mb-5 Productos elaborados
-                p.text-right Bienes obtenidos mediante un proceso de transformación de materia prima o productos intermedios destinados al consumo final.
-            img.img-a.img-t.d-none.d-lg-block.mov4(src='@/assets/curso/tema2/img33.svg', alt='tema1')
+        .col-lg-10
+          img(src='@/assets/curso/tema2/figura1.svg', alt='La imagen expone cómo los bienes materiales se clasifican en cuatro categorías: materias primas, que son sustancias naturales no transformadas; productos en bruto, que requieren acondicionamiento o transporte especializado debido a sus características; semiproductos o productos intermedios, que han pasado por un proceso de transformación y se integrarán en etapas productivas posteriores; y productos elaborados, que son bienes terminados destinados al consumo final tras haber sido transformados a partir de materias primas o productos intermedios.')
 
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-3.bg-img-blue

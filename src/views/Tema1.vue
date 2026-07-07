@@ -85,7 +85,7 @@
         .col-lg-4.col-md-7.col-7.mb-4
           img.img-a.img-t(src='@/assets/curso/tema1/img9.png', alt='tema1')
         .col-lg-8.col-md-12.col-12.mb-4
-          p.mb-4 El concepto “inventariar”, es cuando se  procede a tener un número real y contrastado de elementos que hay en el almacenamiento, donde se valida no solo número, sino también estado y valor. Es un proceso vital para conocer la magnitud de elementos que se tienen en resguardo, #[b convirtiéndose en un elemento de validación y control.]
+          p.mb-4 El concepto “inventariar”, es cuando se  procede a tener un número real y contrastado de elementos que hay en el almacenamiento, donde se valida no solo el número, sino también estado y valor. Es un proceso vital para conocer la magnitud de elementos que se tienen en resguardo, #[b convirtiéndose en un elemento de validación y control.]
           .cajon.color-primario.p-4.mb-4
             p.mb-0 El marco normativo de nuestro país exige que, al menos una  vez al año, se realice de forma obligatoria.
           p.mb-4 La función contable va de la mano de este y suele coincidir su realización con los cierres económicos de la organización, ya que el mismo se convierte en insumo para los cierres y balances económicos que también son normativos establecidos en la legislación.
@@ -184,24 +184,24 @@
                 figure
                   img(src='@/assets/curso/tema1/img23.png', alt='Texto que describa la imagen')
               .tarjeta.colore.p-4(x="23.6%" y="85.2%" numero="1")
-                img.mb-4(src='@/assets/curso/tema1/img24.png', alt='Texto que describa la imagen')
+                img.mb-4(src='@/assets/curso/tema1/img24.png', alt='Detalle del código EAN-13 que resalta el prefijo GS1 770, asociado al país o región de registro del producto.')
                 .h5.mb-2 1. País
                 p Los dos primeros dígitos identifican al país del que proviene el artículo.
               .tarjeta.colore.p-4(x="40.6%" y="85.2%" numero="2")
-                img.mb-4(src='@/assets/curso/tema1/img26.png', alt='Texto que describa la imagen')
+                img.mb-4(src='@/assets/curso/tema1/img25.png', alt='Detalle del código EAN-13 que resalta el código de empresa 2004, segmento asignado a la empresa dentro del código.')
                 .h5.mb-2 2. Código empresa
                 p Los siguientes números, que abarcan la cantidad de cinco, indican el número que dispone la empresa en consecuencia.
               .tarjeta.colore.p-4(x="62.2%" y="85.2%" numero="3")
-                img.mb-4(src='@/assets/curso/tema1/img25.png', alt='Texto que describa la imagen')
+                img.mb-4(src='@/assets/curso/tema1/img26.png', alt='Detalle del código EAN-13 que resalta el código de producto 00350, utilizado para identificar la referencia del artículo.')
                 .h5.mb-2 3. Código producto
                 p Se incluyen los números del producto que sirven para identificarlo.
               .tarjeta.colore.p-4(x="74.5%" y="85.2%" numero="4")
-                img.mb-4(src='@/assets/curso/tema1/img27.png', alt='Texto que describa la imagen')
+                img.mb-4(src='@/assets/curso/tema1/img27.png', alt='Detalle del código EAN-13 que resalta el dígito de verificación 8, último número del código usado para comprobar su validez.')
                 .h5.mb-2 4. Dígito verificación
                 p El dígito de control es el último número que se vislumbra en un código de barras y es la comprobación de que todo está correcto y aporta seguridad para la gestión del producto.
               .tarjeta.colore.p-4(x="50%" y="47%" numero="5")
-                img.mb-4(src='@/assets/curso/tema1/img28.png', alt='Texto que describa la imagen')
-                p Las barras que se incluyen en un código de barras tienen valores diferentes dependiendo siempre de la cantidad y la anchura que tengan. Habitualmente cada una de estas barras se compone de 8 sub barras situadas horizontalmente y de distinto color: blanco o negro. Aquí entra a formar parte el lenguaje binario, siendo el negro 1 y el blanco 0.
+                img.mb-4(src='@/assets/curso/tema1/img28.png', alt='Detalle de las barras del código EAN-13, formadas por líneas negras y espacios blancos que codifican los datos numéricos para su lectura mediante escáner.')
+                p Los códigos de barras lineales representan información mediante patrones específicos de barras negras y espacios blancos de diferente anchura. Cada simbología define cómo deben organizarse estas barras y espacios para representar caracteres o números. Los lectores ópticos interpretan estos patrones, transformándolos en datos digitales que posteriormente son decodificados por el sistema.
   
               
   
@@ -216,7 +216,7 @@
             ul.lista-ul.ps-2.mb-0
               li.d-flex.mb-0
                 i.fas.fa-circle
-                p.mb-0 Ayudan en el proceso de inventariar al interior de las empresas de forma fácil y óptima de cada al proceso.
+                p.mb-0 Ayudan en el proceso de inventariar al interior de las empresas de forma fácil y óptima de cara al proceso.
           .bg02.p-2.mb-2
             ul.lista-ul.mb-0
               li.d-flex.mb-0

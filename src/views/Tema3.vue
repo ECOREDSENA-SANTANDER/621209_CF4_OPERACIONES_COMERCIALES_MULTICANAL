@@ -153,7 +153,7 @@
       
     .row.justify-content-center.align-items-center(data-aos="fade-right")
       .col-lg-8.col-md-12.col-12.mb-4
-        p.mb-3 La rotación productos es un indicador que señala el total de veces que el inventario del almacén y el de la góndola requiere ser suministrado con nuevas existencias.
+        p.mb-3 La rotación de productos es un indicador que señala el total de veces que el inventario del almacén y el de la góndola requiere ser suministrado con nuevas existencias.
         p.mb-3 Los productos tienen una constante entrada y salida, con lo que se evitan multitud de pérdidas, como los productos caducados; este procedimiento permite tener en los almacenes productos frescos y con fecha vigentes en la rotación.
         p.mb-3 Ahora bien, la ausencia del producto se conoce como agotado, y se presenta cuando los artículos de consumo no están en condiciones de venta en ningún lugar del punto o cuando no se dispone de estos en el espacio accesible para el comprador.
       .col-lg-4.col-md-7.col-7.mb-4
@@ -163,7 +163,7 @@
     #t_3_4.titulo-segundo.mb-5
       h2 3.4 Agotados: concepto, características
 
-    p.mb-4(data-aos="fade-left") El término "agotados inventarios" se refiere a una situación en la que una empresa no tiene existencias disponibles de uno o más productos en su inventario. Esto ocurre cuando la demanda de los productos supera la oferta disponible, resultando en una falta de #[em stock] para satisfacer las necesidades de los clientes.
+    p.mb-4(data-aos="fade-left") El término "inventarios agotados" se refiere a una situación en la que una empresa no tiene existencias disponibles de uno o más productos en su inventario. Esto ocurre cuando la demanda de los productos supera la oferta disponible, resultando en una falta de #[em stock] para satisfacer las necesidades de los clientes.
     
     .row.justify-content-center.align-items-center(data-aos="fade-right")
       .col-lg-4.col-md-6.col-7.mb-4
