@@ -85,7 +85,7 @@
         .col-lg-4.col-md-7.col-7.mb-4
           img.img-a.img-t(src='@/assets/curso/tema1/img9.png', alt='tema1')
         .col-lg-8.col-md-12.col-12.mb-4
-          p.mb-4 El concepto “inventariar”, es cuando se  procede a tener un número real y contrastado de elementos que hay en el almacenamiento, donde se valida no solo el número, sino también estado y valor. Es un proceso vital para conocer la magnitud de elementos que se tienen en resguardo, #[b convirtiéndose en un elemento de validación y control.]
+          p.mb-4 El concepto “inventariar”, es cuando se  procede a tener un número real y contrastado de elementos que hay en el almacenamiento, donde se valida no solo el número, sino también el estado y valor. Es un proceso vital para conocer la magnitud de elementos que se tienen en resguardo, #[b convirtiéndose en un elemento de validación y control.]
           .cajon.color-primario.p-4.mb-4
             p.mb-0 El marco normativo de nuestro país exige que, al menos una  vez al año, se realice de forma obligatoria.
           p.mb-4 La función contable va de la mano de este y suele coincidir su realización con los cierres económicos de la organización, ya que el mismo se convierte en insumo para los cierres y balances económicos que también son normativos establecidos en la legislación.
@@ -182,7 +182,7 @@
             ImagenInfografica
               template(v-slot:imagen)
                 figure
-                  img(src='@/assets/curso/tema1/img23.png', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/tema1/img23.png', alt='Código de barras EAN-13 7702004003508, dividido en prefijo GS1 770, código de empresa 2004, código de producto 00350, dígito de verificación 8 y barras de lectura.')
               .tarjeta.colore.p-4(x="23.6%" y="85.2%" numero="1")
                 img.mb-4(src='@/assets/curso/tema1/img24.png', alt='Detalle del código EAN-13 que resalta el prefijo GS1 770, asociado al país o región de registro del producto.')
                 .h5.mb-2 1. País
